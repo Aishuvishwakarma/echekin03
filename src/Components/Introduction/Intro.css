@@ -1,0 +1,36 @@
+#Itroduction{
+    width: 100%;
+    min-height: 100%;
+    background-color: #fff;
+}
+#imgmbl{
+    width: 300px;
+    height: 400px;
+}
+
+#heading{
+    font-size: 28px;
+}
+
+#text h2{
+    font-size: 20px;
+}
+#text h2{
+    font-size: 15px;
+}
+#Itroduction #text button{
+    background-color: #ffc107;
+    height: 40px;
+    padding: 2px 15px;
+}
+#icon{
+    font-size: 55px;
+}
+#txt{
+font-size: 15px;
+margin-top: 10px;
+}
+#clientImg{
+    width: 200px;
+    height: 70px;
+}

@@ -1,0 +1,24 @@
+/* <Switch>
+<Route exact path="/" render={()=>{
+  return <>
+  <Landing/>
+<Indroduction/>
+<Client/>
+<Community/>
+<CovidSection/>
+<Detail/>
+<Question/>
+  </>
+}} />
+
+<Route exact path="/Contact" render={()=>{
+      return <ContactUs/>
+    }} /> 
+      <Route exact path="/Pricing" render={()=>{
+      return <Pricing/>
+    }} /> 
+      <Route exact path="/Blog" render={()=>{
+      return <Blog/>
+    }} /> 
+ 
+  </Switch> */

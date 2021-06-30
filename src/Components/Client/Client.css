@@ -1,0 +1,35 @@
+#client{
+    width: 100%;
+    min-height: 100%;
+    background-color: rgb(255, 251, 228);
+}
+#content{
+    height:550px;
+}
+#clientContent button{
+    background-color: #ffc107;
+    height: 40px;
+    width: 120px;
+    padding: 0px 15px;
+}
+#clientContent h2{
+    font-size: 35px;
+}
+#clientContent h3{
+    font-size: 25px;
+    margin: 20px 0;
+}
+#clientContent p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #464646;
+}
+.illustration{
+    width: 400px;
+    height: 400px;
+}
+.illustration img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
