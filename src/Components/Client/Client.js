@@ -1,49 +1,43 @@
-import React from 'react'
+import React from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/swiper.min.css";
+import "swiper/components/pagination/pagination.min.css"
 import './Client.css'
 
 import shopify from '../../assets/shopify.png'
 import square from '../../assets/square.png'
-import bussiness from '../../assets/bussiness.png'
+import everynote from '../../assets/evernote.png'
+
+import SwiperCore, {
+  Pagination
+} from 'swiper/core';
+
+// install Swiper modules
+SwiperCore.use([Pagination]);
+
 function Client() {
+ 
     return (
-     <div className="container-fluid" id="client">
-     <div className="col-10 container h-100">
-    <div id='content' className="row d-flex justify-content-center align-items-center">
-      <div className="col">
-      <div id='clientContent'  className="col d-flex flex-column justify-content-center">
-        <h2>Contactless visitor system</h2>
-        <h3>How do we work?</h3>
-        <p>Scan QR code at the front desk/Resception.</p>
-        <p>Enter & verify your Phone Number. Fill your detail & click a selfie via Registration from on the Phone.</p>
-        <p>Complete Check-in and recive E-badge/E-pass.</p>
-        <button type="button" class="btn btn-warning  rounded-pill text-light mt-3">Leaen More</button>
+      <div className='client'>
+     <div className="container-fluid h-100">
+       <Swiper slidesPerView={3} spaceBetween={30} className="mySwiper client-list h-100">
+    <SwiperSlide className='SwiperSlide'><img src={shopify} alt="" /></SwiperSlide>
+    <SwiperSlide  className='SwiperSlide'><img id='everynote' src={everynote} alt="" /></SwiperSlide>
+    <SwiperSlide  className='SwiperSlide'><img  id='square' src={square} alt="" /></SwiperSlide>
+    <SwiperSlide className='SwiperSlide'><img src={shopify} alt="" /></SwiperSlide>
+    <SwiperSlide  className='SwiperSlide'><img id='everynote' src={everynote} alt="" /></SwiperSlide>
+    <SwiperSlide  className='SwiperSlide'><img  id='square' src={square} alt="" /></SwiperSlide>
+    <SwiperSlide className='SwiperSlide'><img src={shopify} alt="" /></SwiperSlide>
+    <SwiperSlide  className='SwiperSlide'><img id='everynote' src={everynote} alt="" /></SwiperSlide>
+    <SwiperSlide  className='SwiperSlide'><img  id='square' src={square} alt="" /></SwiperSlide>
+    </Swiper>
+       </div>
+     
       </div>
-      </div>
-      <div className="col justify-content-center d-flex align-items-center">
-      <div className="illustration"><img src={bussiness} alt="" /></div>
-      </div>
-  </div>
-  </div>
-  <div className="container-fluid  bg-light d-flex flex-column justify-content-center align-items-center text-center" >
-          <h2 id='heading' className='mt-5'>Our Clinents</h2>
-          <div className="col-8 d-flex p-5 align-items-center justify-content-center">
-              <div className="col-4  p-3 flex-column  d-flex align-items-center justify-content-center">
-              <img id='clientImg' src={shopify} alt="" />
-              </div>
-              <div className="col-4  p-3 flex-column d-flex align-items-center justify-content-center">
-              <img id='clientImg' src={square} alt="" />
-            
-              </div>
-              <div className="col-4  p-3 flex-column d-flex align-items-center justify-content-center">
-              <img id='clientImg' src={shopify} alt="" />
-              
-              </div>
-              <div className="col-4  p-3  flex-column  d-flex align-items-center justify-content-center">
-              <img id='clientImg' src={square} alt="" />
-              
-              </div>
-          </div>
-       </div></div>
+  
     )
 }
 

@@ -37,14 +37,17 @@ nav  .loginbtn:hover{
 @media screen and (max-width : 600px) {
     nav{
         height: 80px;
-        padding: 0 30px;
+        padding: 20px 20px;
+    }
+    nav h2{
+        font-size: 1rem;
     }
   nav  ul li{
         display: none;
     }
     
 nav  .loginbtn{
-    width: 80px;
+    width: 75px;
     height: 30px;
     font-size: 15px;
     margin-left: 10px;
