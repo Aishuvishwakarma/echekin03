@@ -93,14 +93,14 @@ function Client() {
   "dynamicBullets": true
 }} className="mySwiper">
   <SwiperSlide>
-    <div className="row h-100">
-      <div className="col-4 h-100 d-flex justify-content-center align-items-center">
+    <div className="slideBx">
+      <div className="col h-100 d-flex justify-content-center align-items-center">
       <div id="slideImg">
       <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YnVzc2luZXNzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" />
 
       </div>
       </div>
-      <div className="col-8 h-100">
+      <div className="col h-100">
       <div id='slideContent' className="col">
       <h2>Touchless Visitor Management System</h2>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />
@@ -110,30 +110,15 @@ Laudantium tenetur officiis voluptatum quibusdam blanditiis rerum.</p>
       </div>
     </div>
   </SwiperSlide>
-  <SwiperSlide> <div className="row h-100">
-      <div className="col-4 h-100 d-flex justify-content-center align-items-center">
+  <SwiperSlide>
+    <div className="slideBx">
+      <div className="col h-100 d-flex justify-content-center align-items-center">
       <div id="slideImg">
       <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YnVzc2luZXNzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" />
 
       </div>
       </div>
-      <div className="col-8 h-100">
-      <div id='slideContent' className="col">
-      <h2>Touchless Visitor Management System</h2>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />
-Laudantium tenetur officiis voluptatum quibusdam blanditiis rerum.</p>
-<button  type="button" className="btn btn-outline-light">Learn More</button>
-      </div>
-      </div>
-    </div></SwiperSlide>
-  <SwiperSlide> <div className="row h-100">
-      <div className="col-4 h-100 d-flex justify-content-center align-items-center">
-      <div id="slideImg">
-      <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YnVzc2luZXNzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" />
-
-      </div>
-      </div>
-      <div className="col-8 h-100">
+      <div className="col h-100">
       <div id='slideContent' className="col">
       <h2>Touchless Visitor Management System</h2>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />
@@ -141,15 +126,17 @@ Laudantium tenetur officiis voluptatum quibusdam blanditiis rerum.</p>
 <button type="button" className="btn btn-outline-light">Learn More</button>
       </div>
       </div>
-    </div></SwiperSlide>
-  <SwiperSlide> <div className="row h-100">
-      <div className="col-4 h-100 d-flex justify-content-center align-items-center">
+    </div>
+  </SwiperSlide>
+  <SwiperSlide>
+    <div className="slideBx">
+      <div className="col h-100 d-flex justify-content-center align-items-center">
       <div id="slideImg">
       <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YnVzc2luZXNzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" />
 
       </div>
       </div>
-      <div className="col-8 h-100">
+      <div className="col h-100">
       <div id='slideContent' className="col">
       <h2>Touchless Visitor Management System</h2>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />
@@ -157,8 +144,27 @@ Laudantium tenetur officiis voluptatum quibusdam blanditiis rerum.</p>
 <button type="button" className="btn btn-outline-light">Learn More</button>
       </div>
       </div>
-    </div></SwiperSlide>
-  </Swiper>
+    </div>
+  </SwiperSlide>
+  <SwiperSlide>
+    <div className="slideBx">
+      <div className="col h-100 d-flex justify-content-center align-items-center">
+      <div id="slideImg">
+      <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YnVzc2luZXNzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" />
+
+      </div>
+      </div>
+      <div className="col h-100">
+      <div id='slideContent' className="col">
+      <h2>Touchless Visitor Management System</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />
+Laudantium tenetur officiis voluptatum quibusdam blanditiis rerum.</p>
+<button type="button" className="btn btn-outline-light">Learn More</button>
+      </div>
+      </div>
+    </div>
+  </SwiperSlide>
+   </Swiper>
     </div>
     </div>
   </>

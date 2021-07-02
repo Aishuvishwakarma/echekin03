@@ -101,6 +101,13 @@ color: #2F82FF;
 .slider .mySwiper{
     height: 100%;
 }
+.slideBx{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #slideContent{
     height: 100%;
     display: flex;
@@ -114,12 +121,12 @@ color: #2F82FF;
     width: 150px;
 }
 #slideImg{
-    width: 250px;
+    width: 300px;
     height: 250px;
     overflow: hidden;
 }
 #slideImg{
-    width: 250px;
+    width: 300px;
     height: 250px;
     object-fit: cover;
     object-position: center;
@@ -144,24 +151,44 @@ color: #2F82FF;
         width: 70px;
     } 
     .eChekinCmmunity .card{
-        width: 200px;
-        height: 220px;
+        width: 250px;
+        height: 300px;
         margin-bottom: 10px;
         margin-left: 0px;
     }
     .eChekinCmmunity .card i{  
-        font-size: 30px;
+        font-size: 40px;
         color: #2F82FF;
     }
     .eChekinCmmunity .card p:nth-child(2){
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 600;
         color: #2F82FF;
     }
     .eChekinCmmunity .card p:nth-child(3){
-        font-size: 12px;
+        font-size: 15px;
     }
     .eChekinCmmunity .card:nth-child(1){
         margin-left: 0px;
+    }
+    .slider{
+        height: 550px;
+    }
+    .slideBx{
+        display: flex;
+        flex-direction: column;
+    }
+    #slideImg{
+        width: 100%;
+        height: 200px;
+    }
+    #slideContent{
+        padding: 20px 0;
+    }
+    #slideContent h2{
+        font-size: 20x;
+    }
+    #slideContent p{
+        margin: 15px 0;
     }
 }

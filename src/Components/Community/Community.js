@@ -1,45 +1,84 @@
 import React from 'react'
 import './Community.css'
+import svg1 from '../../assets/R1.png'
+import ThreeD2 from '../../assets/3D2.png'
+import ThreeD3 from '../../assets/3D3.png'
+import ThreeD4 from '../../assets/3D4.png'
+import svg2 from '../../assets/R2.png'
+import svg3 from '../../assets/R3.png'
+import svg4 from '../../assets/R4.png'
+
 function Community() {
     return (
-        <div id='Community' className="container-fluid">
-     <div className="row"  style={{height:'350px'}} >
-       <div className="container p-2 d-flex flex-column justify-content-center align-items-center text-center" >
-          <h2 id='heading'>Why leading companies & organisations<br/>choose eChecking </h2>
-          <div className="col-6  mt-5 d-flex align-items-center justify-content-center">
-              <div className="col-4  p-3 flex-column  d-flex align-items-center justify-content-center">
-              <div className="crcl">
-              <i class="fas fa-user-shield"></i>
-              </div><p id='txt'>Accepted by many Government institutions & coporates</p>
-              </div>
-              <div className="col-4  p-3 flex-column d-flex align-items-center justify-content-center">
-              <div className="crcl">
-              <i class="fas fa-tools"></i>
-              </div><p id='txt'>Work with tools your team already uses for seamless implementations.</p>
-              </div>
-              <div className="col-4  p-3 flex-column d-flex align-items-center justify-content-center">
-              <div className="crcl">
-              <i class="fas fa-headphones-alt"></i>
-              </div><p id='txt'>Count on our industry-leading customer Success team</p>
-              </div>
-              <div className="col-4  p-3  flex-column  d-flex align-items-center justify-content-center">
-              <div className="crcl">
-              <i class="fas fa-shield-alt"></i>
-              </div><p id='txt'>We take it very seriously,  <br /> all the data is encrypted and stored in a secured server.</p>
-              </div>
-          </div>
+        <>
+        <div id='Community'>
+    <img src={svg1} alt={svg1} id='svg1' />
+    <img src={svg1} alt={svg1} id='svg2'  />
+    <div className="row d-flex p-4  justify-content-center align-items-center text-center">
+        <h2 id='txt'>Contactless visitor system</h2>
+        <h3 className='mt-3' id='txt'>How do we work?</h3>
        </div>
-     </div>
-     <div  className="row"  >
-      <div className="col-8 container d-flex flex-column align-items-center justify-content-center">
-      <p style={{fontSize:'23px',fontWeight:'500',color:'#424242'}} >eCheckin has elevated visitor management well<br />
-     beyond the simple act of registeation and <br /> incorporated notions of security, health and safety,<br />
-     brand promotion, customer communication and privacy<br /></p>
-     <p>Mark Hill</p>
-     <p>Director of Digital,innovation and transformation</p>
-      </div>
-     </div>
- </div>
+       <div className="row d-flex justify-content-center align-items-center">
+       <div className="img">
+       <img src={svg1} alt={svg1} id='svg3'/>
+       <img src={ThreeD2} alt={ThreeD2} id='svg4'/>
+       img
+       </div>
+       </div>
+       <div className="row d-flex p-4 justify-content-center align-items-center">
+       <div className="col-5 d-flex flex-column justify-content-center align-items-center text-center">
+       <p>Scan QR code at the front desk/Resception.</p>
+       <p>Enter & verify your Phone Number. Fill your detail & click a selfie via Registration from on the Phone.</p>
+       <p>Complete Check-in and recive E-badge/E-pass.</p>
+       <button type="button" className="btn btn-outline-primary">Learn More</button>
+       </div>
+       </div>
+        </div>
+        <div id='Community'>
+    <img src={svg2} alt={svg2} id='svg1' />
+    <img src={svg2} alt={svg2} id='svg2'  />
+    <div className="row d-flex p-5  justify-content-center align-items-center text-center">
+        <h2 id='txt'>How Sodexo addressed COVID-19 <br /> challenges with eCheckin</h2>
+       </div>
+       <div className="row d-flex justify-content-center align-items-center">
+       <div className="img mt-5">
+       <img src={svg3} alt={svg3} id='svg3'/>
+       <img src={ThreeD3} alt={ThreeD3} id='svg4'/>
+       img
+       </div>
+       </div>
+       <div className="row mt-3 d-flex p-4 justify-content-center align-items-center">
+       <div className="col-5 d-flex flex-column justify-content-center align-items-center text-center">
+       <p>Learn why sodexo chose eCheckin to help the organizatiuon <br />
+combat the global pandemic and reinforce health and safety <br />
+across their buildings.</p>
+       <button type="button" className="btn btn-outline-primary">Learn More</button>
+       </div>
+       </div>
+        </div>
+        <div id='Community'>
+    <img src={svg2} alt={svg2} id='svg1' />
+    <img src={svg2} alt={svg2} id='svg2'  />
+    <div className="row d-flex p-5  justify-content-center align-items-center text-center">
+        <h2 id='txt'>Got more questions to ask?</h2>
+        <h2 id='txt'>Get in Touch With us?</h2>
+       </div>
+       <div className="row d-flex justify-content-center align-items-center">
+       <div className="img mt-4">
+       <img src={svg4} alt={svg4} id='svg3'/>
+       <img src={ThreeD4} alt={ThreeD4} id='svg4'/>
+       img
+       </div>
+       </div>
+       <div className="row mt-5 d-flex p-4 justify-content-center align-items-center">
+       <div className="col-5 d-flex flex-column justify-content-center align-items-center text-center">
+       <p>we'll be happy to help answer any of your questions send <br />
+us an email and we'll get back to your shortly.</p>
+       <button type="button" className="btn btn-outline-primary">Learn More</button>
+       </div>
+       </div>
+        </div>
+        </>
     )
 }
 
