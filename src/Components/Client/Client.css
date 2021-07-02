@@ -27,6 +27,103 @@
     height: 50px;
     width: 240px;
 }
+.community{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+}
+.community #heading{
+font-size: 30px;
+color: #2F82FF;
+}
+.eChekinCmmunity{
+    padding: 10px 0;
+}
+.eChekinCmmunity:nth-child(2){
+    padding: 0px 0;
+}
+.eChekinCmmunity .card{
+    width: 200px;
+    height: 250px;
+    background-color: #f2f2f2;
+    margin-left: 20px;
+    box-shadow: 2px 3px 5px 1px #2c2c2c18;
+    margin-bottom: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+.eChekinCmmunity .card:hover{
+    background-color: #2F82FF;
+    color: #f2f2f2;
+}
+.eChekinCmmunity .card:hover i{
+    color: #f2f2f2;
+}
+.eChekinCmmunity .card:hover i{
+    color: #f2f2f2;
+}
+.eChekinCmmunity .card:hover #text{
+    color: #f2f2f2;
+}
+.eChekinCmmunity .card:hover button{
+    background-color: #fff;
+    color: #2F82FF;
+}
+.eChekinCmmunity .card i{  
+    font-size: 40px;
+    color: #2F82FF;
+}
+.eChekinCmmunity .card p:nth-child(2){
+    font-size: 18px;
+    font-weight: 600;
+    color: #2F82FF;
+}
+.eChekinCmmunity .card p:nth-child(3){
+    font-size: 13px;
+}
+.eChekinCmmunity .card:nth-child(1){
+    margin-left: 0px;
+}
+.slidersectn{
+    background-color: #fff;
+}
+.slider{
+    height: 350px;
+    background-color: #E0B948;
+    border-radius: 15px;
+}
+.slider .mySwiper{
+    height: 100%;
+}
+#slideContent{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#slideContent p{
+    margin: 20px 0;
+}
+#slideContent button{
+    width: 150px;
+}
+#slideImg{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+#slideImg{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
 @media screen and (max-width : 600px){
     .client{
         height: 150px;
@@ -46,4 +143,25 @@
         height: 30px;
         width: 70px;
     } 
+    .eChekinCmmunity .card{
+        width: 200px;
+        height: 220px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+    .eChekinCmmunity .card i{  
+        font-size: 30px;
+        color: #2F82FF;
+    }
+    .eChekinCmmunity .card p:nth-child(2){
+        font-size: 15px;
+        font-weight: 600;
+        color: #2F82FF;
+    }
+    .eChekinCmmunity .card p:nth-child(3){
+        font-size: 12px;
+    }
+    .eChekinCmmunity .card:nth-child(1){
+        margin-left: 0px;
+    }
 }
