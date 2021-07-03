@@ -11,7 +11,7 @@ function Navigation() {
     <div className="d-flex justify-content-between">
       <ul  className="navbar-nav  d-flex justify-content-center">
       <li className="nav-item">
-          <NavLink exact  activeStyle={{color: '#E0B948',fontWeight:'600',textDecoration:'underline',transition:'.5s'}}  className="nav-link active" aria-current="page" to="/Home">Home</NavLink>
+          <NavLink exact  activeStyle={{color: '#E0B948',fontWeight:'600',textDecoration:'underline',transition:'.5s'}}  className="nav-link active" aria-current="page" to="/echekin03">Home</NavLink>
         </li>
         <li className="nav-item">
           <NavLink exact  activeStyle={{color: '#E0B948',fontWeight:'600',textDecoration:'underline',transition:'.5s'}}  className="nav-link active" aria-current="page" to="/pricing">Pricing</NavLink>

@@ -1,19 +1,10 @@
 .DetailSection{
     width: 100%;
     min-height: 100%;
-    background-color:  rgb(255, 251, 228);
+    background-color: #DAE4F2;
 }
-.DetailSection .line{
-    margin: 0 auto;
-    width: 90px;
-    height: 6px;
-    background-color: #ffc107;
-    border-radius: 5px;
-}
-.partner{
-    width: 500px;
-    height: 500px;
-    margin: 0 auto;
+.DetailSection h2{
+    color: #2F82FF;
 }
 #prtnrLogo{
     width: 200px;
@@ -42,4 +33,16 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
+}
+.partner{
+    padding: 50px 0;
+}
+@media screen and (max-width : 600px){
+    .DetailSection{
+        min-height: 60%;
+    }
+    .partner{
+        padding: 20px 0;
+    }
+
 }

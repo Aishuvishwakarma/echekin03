@@ -1,12 +1,18 @@
 .footer{
     width: 100%;
     height: 70vh;
-    color: #f2f2f2;
+    background-color: #DAE4F2;
 }
-.footer h2{
+.footer .container{
+ display: flex;
+ flex-direction: row;       
+}
+.footer h2,h4{
+    color: #2F82FF;
     font-size: 45px;
 }
 .footer p{
+    color: #3a3a3a;
     font-size: 15px;
 }
 .social{
@@ -18,10 +24,10 @@
 }
 .social i{
     font-size: 20px;
-    color: #f2f2f2;
+    color: #2F82FF;
 }
 .footerLinks{
-    color: #f2f2f2;
+    color: #3a3a3a;
     font-size: 15px;
     display: block;
     text-decoration: none;
@@ -29,4 +35,54 @@
 }
 .footerLinks i{
     margin-right: 10px;
+}
+.row-4 #echekinRight{
+    display: none;
+}
+@media screen and (max-width : 600px){
+    .footer{
+        height: 100vh;
+    }
+    .footer .container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer .container .col-4{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 500px;
+       text-align: center;
+       margin-bottom: 30px;
+       overflow: hidden;
+       width: 200px;
+    }
+    .footer .container .col-4:nth-child(1){
+        margin-top: 10px;
+    }
+    .footer .container .col-4 h2{
+        font-size: 28px;
+    }
+    .social{
+        width: 150px;
+    }
+    .social i{
+        font-size: 15px;
+    }
+    #echekinRight{
+        display: none;
+    }
+    .row-4 #echekinRight{
+        display: block;
+    }
+    #footermailSection{
+        width: 200px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
 }

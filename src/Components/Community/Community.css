@@ -3,7 +3,7 @@
     min-height: 100vh;
     background-color:  rgb(245, 245, 245);
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
 }
  #txt{
     color: #2F82FF;
@@ -41,4 +41,48 @@
     z-index: 2;
     width: 240px;
     height: 170px;
+}
+.optn{
+    padding: 50px 0;
+}
+@media screen and (max-width : 600px){
+    #Community{
+        min-height: 70vh;
+    }
+#Community > img{
+    width: 341px;
+    height: 100px;
+    display: none;
+}
+#svg1{
+    left: -50%;
+    bottom: 0%;
+    transform: rotate(90deg);
+}
+#svg2{
+    right: -50%;
+    top: 60%;
+    transform: rotate(90deg);
+}
+.img{
+    width: 301px;
+    height: 190px;
+}
+#svg3{
+    position: absolute;
+    z-index: 1;
+    width: 301px;
+    height: 190px;
+}
+#svg4{
+    position: absolute;
+    z-index: 2;
+    width: 240px;
+    height: 170px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.optn{
+    padding: 50px 20px;
+}
 }
