@@ -4,19 +4,19 @@ function Pricing() {
     return (
         <>
         <div className="pricing">
-            <div className="container col-5">
-            <div className="row d-flex flex-column p-3 align-items-center text-center">
+            <div className="container col">
+            <div className="col d-flex  flex-column p-3 align-items-center text-center">
             <h2 id="heading">Finally,a visitor management system <br /> that scales with you</h2>
-            <p>Unlimited visitors. Unlimited hots. Unlimited kiosks.</p>
+            <p className='mt-2'>Unlimited visitors. Unlimited hots. Unlimited kiosks.</p>
             </div>
-            <div className="row d-flex flex-column p-5 align-items-center text-center">
+            <div className="col d-flex flex-column p-5 align-items-center text-center">
             <p style={{fontWeight:'500'}} >start with must-have | (Our most popular return-to-workplace offering)</p>
             </div>
-            <div className="row d-flex flex-column align-items-center priningsctn">
+            <div className="col d-flex flex-column align-items-center  priningsctn">
             <div className="pricingbx">
-                <div className="col mb-3  d-flex align-items-center">
+                <div className="col mb-3 d-flex align-items-center">
                 <div className="pack"></div>
-               <h2>Prime Pack</h2>
+               <h2 style={{fontSize:'30px'}} >Prime Pack</h2>
                 </div>
                 <div className="col d-flex align-items-center">
                 <h4 id='texthead'>100 $ <span>per month/location</span></h4>
@@ -32,7 +32,7 @@ function Pricing() {
                 </ul>
                 <p style={{fontWeight:'500',color:'#555'}}>API access and webhooks for intergrations</p>
                 <div className="col  d-flex flex-column align-items-center">
-                <i class="fas fa-chevron-down"></i>
+                <i class="ri ri-chevron-down">icon</i>
                  <button id='btn'>Try for free</button>
                 </div>
             </div>

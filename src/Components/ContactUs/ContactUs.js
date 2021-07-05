@@ -13,7 +13,7 @@ function ContactUs() {
          <div className="row d-flex flex-column p-5 align-items-center text-center">
         <p>Contact us using the form below. if you need help<br />instantly,ckeck out our <Link to='/help'>Help center</Link></p>or use the chat
          </div>
-         <div className="row d-flex flex-column align-items-center  form">
+         <div className="row form">
          <div id="formsctn">
          <form action="">
              <h2>First Name <span>*</span></h2>
@@ -34,21 +34,20 @@ function ContactUs() {
         </div>
             </div>
          </div>
-        <div className="contact">
+        <div className="contact d-flex justify-content-center align-items-center text-center">
             <div className="container">
-            <div className="row d-flex flex-column p-5 align-items-center text-center">
+            <div className="row d-flex flex-column align-items-center text-center">
             <h2 id="heading">Other Contacts</h2>
             </div>
-            <div className="row d-flex flex-column p-5 align-items-center text-center">
+            <div className="row d-flex flex-column align-items-center text-center">
             <h2 id="heading">Asia/India</h2>
-            <div id='cntactdtl' className="col-6 p-5">
+            <div id='cntactdtl' className="col">
                 <p>Phone number : <span>+91 9584762135</span></p>
                 <p>Email Id : <span>eCheckin@gmail.com</span></p>
                 <p>Address : <span>1 North Bridge Road,8th floor found 8,179094 singapore</span></p>
             </div>
-            <div className="line"></div>
             <h2 id="heading">America</h2>
-            <div id='cntactdtl' className="col-6 p-5">
+            <div id='cntactdtl' className="col">
                 <p>Phone number : <span>+31 9584762135</span></p>
                 <p>Email Id : <span>eCheckin@gmail.com</span></p>
                 <p>Address : <span>1 North Bridge Road,8th floor found 8,179094 Califorina</span></p>

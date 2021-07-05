@@ -3,54 +3,61 @@
     min-height: 100%;
     background-color: #fff;
 }
+.pricing #heading{
+    color:#2F82FF;
+}
 .priningsctn{
-    height: 650px;
-    margin-bottom: 15px;
+    height: 100vh;
+}
+.pricing .container{
+    min-height: 100vh;
+    padding: 50px 0;
 }
 .pricingbx{
-    padding: 25px 30px;
-    width: 45%;
-    height: 100%;
+    padding: 15px 30px;
+    width: 40%;
+    height:90%;
     border-radius: 20px;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.274);
 }
 .pack{
-    width:70px;
-    height: 70px;
+    width:50px;
+    height: 50px;
     border-radius: 15px;
     background-color: rgb(180, 213, 252);
     margin-right: 20px;
 }
 .priningsctn h2{
-    color:  rgb(102, 171, 255) ;
+    color: #2F82FF ;
 }
 #texthead{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 500;
     letter-spacing: 1px;
 }
 #texthead span{
-    font-size: 20px;
+    font-size: 15px;
 }
 .priningsctn .line{
-    width: 120px;
-    height: 5px;
+    width: 100px;
+    height: 3px;
     border-radius: 5px;
-    background-color: #ffc107;
-    margin: 1rem 0;
+    background-color: #2F82FF;
+    margin: 10px 0;
 }
 
 ul li{
+margin-left: -15px;
 list-style: decimal;
 font-weight: 500;
-font-size: 17px;
+font-size: 14px;
 color: rgb(41, 41, 41);
 margin-bottom: 15px;
 }
 .priningsctn #btn{
-    width:150px;
-    height: 50px;
-    background-color: #ffc107;
+    width:130px;
+    height: 45px;
+    background-color: #2F82FF;
     color: #fff;
     border-radius: 5px;
     border: none;
@@ -61,4 +68,47 @@ margin-bottom: 15px;
     font-size: 22px;
     color: rgb(88, 88, 88);
     margin-bottom: 15px;
+}
+@media screen and (max-width : 600px) {
+   
+    .priningsctn{
+        height: 55vh;
+    }
+.pricing .container{
+    padding: 20px 0;
+}
+.pricingbx{
+    padding: 10px 20px;
+    width: 90%;
+    height:95%;
+}
+.pricingbx .col{
+    margin-top: 10px;
+}
+.pack{
+    width:40px;
+    height: 40px;
+}
+#texthead{
+    font-size: 30px;
+}
+#texthead span{
+    font-size: 13px;
+}
+.priningsctn .line{
+    margin: 8px 0;
+}
+
+ul li{
+font-size: 13px;
+margin-bottom: 12px;
+}
+.priningsctn #btn{
+    width:100px;
+    height: 40px;
+}
+.priningsctn i{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
 }

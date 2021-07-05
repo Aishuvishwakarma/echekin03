@@ -2,7 +2,7 @@ import React from 'react'
 import './Detail.css'
 function Detail() {
     return (
-        <div className="DetailSection">
+        <div className="DetailSection p-5">
          <div className="row-8 d-flex flex-column p-5 align-items-center text-center">
         <h2 id='heading'>From startup to enterprice</h2>
         <p>Whether you're a growing or enterprise brand,a<br />

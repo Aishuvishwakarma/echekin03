@@ -3,6 +3,9 @@ nav{
     padding: 0 40px;
     background-color: #543DE0;
 }
+#hamburger{
+    display: none;
+}
 nav h2{
     color: #fff;
     font-size: 1.5rem;
@@ -37,10 +40,14 @@ nav  .loginbtn:hover{
 @media screen and (max-width : 600px) {
     nav{
         height: 80px;
-        padding: 20px 20px;
+        padding: 10px 20px;
+    }
+    #hamburger{
+        display: flex;
+        background-color: #E0B948
     }
     nav h2{
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
   nav  ul li{
         display: none;
@@ -50,6 +57,5 @@ nav  .loginbtn{
     width: 75px;
     height: 30px;
     font-size: 15px;
-    margin-left: 10px;
 }
 }
