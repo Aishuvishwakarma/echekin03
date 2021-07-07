@@ -31,9 +31,6 @@ function Navigation() {
         <li className="nav-item">
           <NavLink exact  activeStyle={{color: '#E0B948',fontWeight:'600',textDecoration:'underline',transition:'.5s'}}  className="nav-link active" aria-current="page" to="/pricing">Pricing</NavLink>
         </li>
-        <li class="nav-item">
-          <NavLink exact  activeStyle={{color: '#E0B948',fontWeight:'600',textDecoration:'underline',transition:'.5s'}}  className="nav-link active" to="/product">Product</NavLink>
-        </li>
         <li className="nav-item">
           <NavLink exact  activeStyle={{color: '#E0B948',fontWeight:'600',textDecoration:'underline',transition:'.5s'}}  className="nav-link active" to="/blog">Blog</NavLink>
         </li>
@@ -54,9 +51,6 @@ function Navigation() {
     </SwiperSlide>
     <SwiperSlide>
     <NavLink exact  activeStyle={{color: '#f2f2f2',fontWeight:'600',transition:'.5s'}}  className="nav-link active" aria-current="page" to="/pricing">Pricing</NavLink>
-    </SwiperSlide>
-    <SwiperSlide>
-    <NavLink exact  activeStyle={{color: '#E0B948',fontWeight:'600',transition:'.5s'}}  className="nav-link active" to="/product">Product</NavLink>
     </SwiperSlide>
     <SwiperSlide>
     <NavLink exact  activeStyle={{color: '#f2f2f2',fontWeight:'600',transition:'.5s'}}  className="nav-link active" to="/blog">Blog</NavLink>

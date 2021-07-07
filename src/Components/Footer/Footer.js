@@ -9,6 +9,12 @@ function Footer() {
                     <div className="links p-3">
                         <h4>eCheckin</h4>
                         <p>Contact visitor system</p>
+                        <div className="social">
+                        <i class="ri-facebook-circle-line"></i>
+                        <i class="ri-instagram-fill"></i>
+                        <i class="ri-twitter-fill"></i>
+                        <i class="ri-linkedin-box-fill"></i>
+                        </div>
                     </div>
                     <div className="links p-3">
                         <Link className='footerLinks'>Security</Link>
@@ -22,8 +28,8 @@ function Footer() {
                     </div>
                     <div className="links p-3">
                         <h4>Contact Us</h4>
-                        <Link className='footerLinks'><i class="fas fa-envelope"></i>salestecboot.mumbai@gmail.com</Link>
-                        <Link className='footerLinks'><i class="fas fa-globe"></i>website</Link>
+                        <Link className='footerLinks'><i class="ri-mail-fill"></i>salestecboot.mumbai@gmail.com</Link>
+                        <Link className='footerLinks'><i class="ri-global-line"></i>website</Link>
                     </div>
                 </div>
                 <Link id='echekinRight' >2020 eCheckin. All Right Reseverd.</Link>

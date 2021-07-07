@@ -5,7 +5,7 @@ function Blog() {
         <>
             <div className="blog bg-light">
                 <div className="container p-2">
-                <div id='blogs' className="row-4 d-flex flex-column justify-content-center align-items-center p-4  h-100">
+                <div id='blogs' className="d-flex card flex-column justify-content-center align-items-center p-4  h-100">
                    <div className="img"><img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJsb2d8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" /></div> 
                    <h3>a brief guid to post-pondemic CRE trends $ the transforming landscape</h3>
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellat consequatur nostrum, quod ab ullam optio.</p>
@@ -14,7 +14,7 @@ function Blog() {
                        <h2>Securiuty and Compliance</h2>
                    </div>
                 </div>     
-                <div id='blogs' className="row-4 d-flex flex-column justify-content-center align-items-center p-4  h-100">
+                <div id='blogs' className="d-flex card flex-column justify-content-center align-items-center p-4  h-100">
                    <div className="img"><img src="https://images.unsplash.com/photo-1442115597578-2d0fb2413734?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGJsb2d8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" /></div> 
                    <h3>a brief guid to post-pondemic CRE trends $ the transforming landscape</h3>
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellat consequatur nostrum, quod ab ullam optio.</p>
@@ -23,7 +23,7 @@ function Blog() {
                        <h2>Securiuty and Compliance</h2>
                    </div>
                 </div>
-                <div id='blogs' className="row-4  d-flex flex-column justify-content-center align-items-center p-4  h-100">
+                <div id='blogs' className="d-flex card flex-column justify-content-center align-items-center p-4  h-100">
                    <div className="img"><img src="https://images.unsplash.com/photo-1445633743309-b60418bedbf2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGJsb2d8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" /></div> 
                    <h3>a brief guid to post-pondemic CRE trends $ the transforming landscape</h3>
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellat consequatur nostrum, quod ab ullam optio.</p>

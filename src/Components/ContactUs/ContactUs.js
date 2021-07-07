@@ -20,11 +20,13 @@ function ContactUs() {
                             <form action="">
                                 <h5 className="form-label fw-normal text-secondary mt-2">Full Name</h5>
                                 <input type="text" className="form-control" />
-                                <h5 className="form-label fw-normal text-secondary mt-2">Email address</h5>
+                                <h5 className="form-label fw-normal text-secondary mt-2">Company Name</h5>
+                                <input type="text" className="form-control" />
+                                <h5 className="form-label fw-normal text-secondary mt-2">Company email</h5>
                                 <input type="email" className="form-control" />
-                                <h5 className="form-label fw-normal text-secondary mt-2">Contact</h5>
-                                <input type="email" className="form-control" />
-                                <h5 className="form-label fw-normal text-secondary mt-2">Write something</h5>
+                                <h5 className="form-label fw-normal text-secondary mt-2">Phome Number</h5>
+                                <input type="text" className="form-control" />
+                                <h5 className="form-label fw-normal text-secondary mt-2">Your message</h5>
                                 <textarea type="email" className="form-control" />
                                 <button className='btn btn-primary mt-3'>Submit</button>
                             </form>
@@ -32,6 +34,22 @@ function ContactUs() {
                         </div>
                     </div>
                 </div>
+                <div className="otherCnct container">
+                <h2 className='mb-5'>Othetr Contact</h2>
+                        <h2 >Asia/India</h2>
+                        <div id='cntactdtl'>
+                            <p>Phone number : <span>+91 9584762135</span></p>
+                            <p>Email Id : <span>eCheckin@gmail.com</span></p>
+                            <p>Address : <span>1 North Bridge Road,8th floor found 8,179094 singapore</span></p>
+                        </div>
+                        <div className="line"></div>
+                        <h2>America</h2>
+                        <div id='cntactdtl'>
+                            <p>Phone number : <span>+31 9584762135</span></p>
+                            <p>Email Id : <span>eCheckin@gmail.com</span></p>
+                            <p>Address : <span>1 North Bridge Road,8th floor found 8,179094 Califorina</span></p>
+                        </div>
+                    </div>
         </>
             )
 }

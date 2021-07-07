@@ -1,6 +1,6 @@
 .pricing{
     width: 100%;
-    min-height: 100%;
+    height: 55%;
     background-color: #fff;
 }
 .pricing #heading{
@@ -8,6 +8,7 @@
 }
 .priningsctn{
     height: 100vh;
+    background-color: #fff;
 }
 .pricing .container{
     min-height: 100vh;
@@ -15,8 +16,8 @@
 }
 .pricingbx{
     padding: 15px 30px;
-    width: 40%;
-    height:90%;
+    width: 450px;
+    height:580px;
     border-radius: 20px;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.274);
 }
@@ -57,22 +58,30 @@ margin-bottom: 15px;
 .priningsctn #btn{
     width:130px;
     height: 45px;
-    background-color: #2F82FF;
-    color: #fff;
+    color: #2F82FF;
+    border:2px solid #2F82FF;
+    background-color: #fff;
     border-radius: 5px;
-    border: none;
-    outline: none;
-    margin-top: 5px;
+        outline: none;
+        transition: .5s ease-in;
+        margin-bottom: 10px;
 }
-.priningsctn i{
-    font-size: 22px;
-    color: rgb(88, 88, 88);
-    margin-bottom: 15px;
+.priningsctn #btn:hover{
+color: #fff;
+border: 2px solid #fff;
+background-color: #2F82FF;
+}
+
+#drop{
+    font-size: 50px;
 }
 @media screen and (max-width : 600px) {
+    .pricing{
+        height: 48%;
+    }
    
     .priningsctn{
-        height: 55vh;
+        height: 80vh;
     }
 .pricing .container{
     padding: 20px 0;
@@ -80,7 +89,7 @@ margin-bottom: 15px;
 .pricingbx{
     padding: 10px 20px;
     width: 90%;
-    height:95%;
+    height:620px;
 }
 .pricingbx .col{
     margin-top: 10px;
@@ -107,8 +116,8 @@ margin-bottom: 12px;
     width:100px;
     height: 40px;
 }
-.priningsctn i{
-    font-size: 15px;
-    margin-bottom: 10px;
+
+#drop{
+    font-size: 33px;
 }
 }
