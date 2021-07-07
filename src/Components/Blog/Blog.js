@@ -38,7 +38,7 @@ function Blog() {
             </div>
             <div className="category bg-light">
                 <div className="container  d-flex flex-column justify-content-center align-items-center">
-                <h2>Categories</h2>
+                <h2 className='mt-5'>Categories</h2>
                <div id="category">
                    <div className="categories">
                        New world Work
